@@ -1,0 +1,103 @@
+/* Estilos generales de la barra superior */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fd9200;
+	color: #fff;
+	padding: 10px 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	/* Add a subtle box shadow */
+}
+
+/* Estilos para el logo circular */
+.circular-logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid #fff;
+	/* Add a white border */
+}
+
+.circular-logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+  flex: 1;
+  position: relative;
+}
+
+.search-bar input[type="text"] {
+  padding: 5px;
+  /* Use 100% width for the input */
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  /* Darker background color */
+  color: #fff;
+  outline: none;
+  /* Remove input focus outline */
+}
+
+/* Estilos para los iconos circulares */
+.for-sale {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.for-sale img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* Estilos para los iconos circulares */
+.shopping-cart {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+.shopping-cart img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.profile-picture {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-left: 30px;
+	border: 2px solid #fff;
+	/* Add a white border */
+}
+
+.profile-picture img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.for-sale:hover,
+.shopping-cart:hover,
+.circular-logo:hover,
+.profile-picture:hover {
+	cursor: pointer;
+}
+
+/* styles.css */
+.input-text {
+	font-size: 26px;
+	/* Tamaño de fuente más grande */
+}

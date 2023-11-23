@@ -1,0 +1,61 @@
+/* Estilos generales de la barra superior */
+.steps-navbar {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); /* Crea 8 columnas de igual tamaño */
+
+    grid-gap: 10px; /* Espacio entre las celdas (ajusta según tus preferencias) */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dad8ff;
+    padding: 8px 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    /* Add a subtle box shadow */
+  }
+
+  .button-category {
+    color:black;
+    font-weight: bold;
+    transition: '0.5s ease';
+  }
+
+  .button-description {
+    color:black;
+    font-weight: bold;
+  }
+
+  .button-media {
+    color:black;
+    font-weight: bold;
+  }
+
+  .button-specs {
+    color:black;
+    font-weight: bold;
+  }
+  
+  .button-preview {
+    color:black;
+    font-weight: bold;
+  }
+
+  .button-bigger-than{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .button-category,
+  .button-description,
+  .button-media,
+  .button-specs,
+  .button-preview,
+  .button-bigger-than{
+    color: #ffffff;
+  }
+
+  /* styles.css */
+  .input-text {
+    font-size: 20px;
+    /* Tamaño de fuente más grande */
+  }
